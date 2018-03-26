@@ -17,11 +17,13 @@ import '../../css/styles.css';
 export default function App() {
   return (
     <div>
-
-    <Toggle title="1" abcde"machine1" isToggleOn/>
-    <Toggle title="2" abcde"machine2" isToggleOn/>
-    <Toggle title="3" abcde"machine3" isToggleOn/>
-    </div>
+    <Header />
+    
+    <Toggle title="1" abcde="Toggle1" isToggleOn ={false}/>
+    <Toggle title="2" abcde="Toggle2" isToggleOn ={true}/>
+    <Toggle title="3" abcde="Toggle3" isToggleOn ={true}/>
+    <Footer />
+       </div>
   );
 }
     // Un return doit retourner un seul élément du DOM

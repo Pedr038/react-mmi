@@ -1,0 +1,16 @@
+.Toggle-active h1{
+    color: green;
+}
+.Toggle-desactive h1{
+    color: red;
+}
+button{
+    background-color: black;
+    color: white;
+}
+Header{
+    color:blue;
+}
+Footer{
+    color:blue;
+}

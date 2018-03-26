@@ -17,11 +17,16 @@ class Toggle extends React.Component {
 
   render() {
     return (
-        <div className
+        <div className = {this.state.isToggleOn ? "Toggle-active" : "Toggle-desactive" }>
+        <h1> Toggle {this.props.title} </h1>
+        <p>{this.props.abcde} | {this.state.isToggleOn ? "Marche" : "Arrêt" }</p>
         
       <button onClick={this.handleClick}>
         {this.state.isToggleOn ? 'ON' : 'OFF'}
       </button>
+      </div>
     );
   }
 }
+
+export default Toggle;

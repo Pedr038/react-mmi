@@ -1,13 +1,15 @@
+/**
+ *
+ * Footer.js
+ *
+ */
 import React from 'react';
 
 class Footer extends React.Component {
   render() {
-    // Dans tous les cas, afficher
-    return (
-        <div>footer</div>
-        );
+    return <div className='footer'>All rights reserved</div>
   }
 }
 
-// Le composant sera accessible avec le nom "Machine"
+// Le composant sera accessible avec le nom "Footer"
 export default Footer;

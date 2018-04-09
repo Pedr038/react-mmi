@@ -1,6 +1,9 @@
 import React from 'react';
+import Toggle from 'react-toggle';
+import "react-toggle/style.css";
 
-class Toggle extends React.Component {
+
+class toggle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {isToggleOn: true};
@@ -24,6 +27,10 @@ class Toggle extends React.Component {
       <button onClick={this.handleClick}>
         {this.state.isToggleOn ? 'ON' : 'OFF'}
       </button>
+      <Toggle
+        checked={this.state.isToggleOn}
+        onChange={(e) => this.handleClick(e)}
+      />
       </div>
     );
   }

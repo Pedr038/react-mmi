@@ -1,13 +1,15 @@
+/**
+ *
+ * Header.js
+ *
+ */
 import React from 'react';
 
 class Header extends React.Component {
   render() {
-    // Dans tous les cas, afficher
-    return (
-        <div>header</div>
-        );
+    return <div className='header'>Coffee Machines !</div>
   }
 }
 
-// Le composant sera accessible avec le nom "Machine"
+// Le composant sera accessible avec le nom "Header"
 export default Header;

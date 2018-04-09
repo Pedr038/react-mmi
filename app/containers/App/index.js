@@ -9,7 +9,6 @@ import React from 'react';
 import Machine from '../../components/Machine.js';
 import Header from '../../components/Header.js';
 import Footer from '../../components/Footer.js';
-import Toggle from '../../components/Toggle.js';
 
 // On peut aussi importer du CSS de la meme facon.
 import '../../css/styles.css';
@@ -19,9 +18,9 @@ export default function App() {
     <div>
     <Header />
     
-    <Toggle title="1" abcde="Toggle1" isToggleOn ={false}/>
-    <Toggle title="2" abcde="Toggle2" isToggleOn ={true}/>
-    <Toggle title="3" abcde="Toggle3" isToggleOn ={true}/>
+    <Machine title="1" abcde="Toggle1" isToggleOn ={false}/>
+    <Machine title="2" abcde="Toggle2" isToggleOn ={true}/>
+    <Machine title="3" abcde="Toggle3" isToggleOn ={true}/>
     <Footer />
        </div>
   );

@@ -29,3 +29,5 @@ export default function App() {
     // Un return doit retourner un seul élément du DOM
     // Si on veut afficher plusieurs éléments adjacents,
     // On devra donc les encapsuler dans une DIV parente.
+    
+    
